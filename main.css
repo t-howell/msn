@@ -16,6 +16,7 @@ h1>span {
 #messages {
      height: 250px;
      overflow: scroll;
+     overflow-x: hidden;
      max-width: 380px;
      background-color: white;
 }
@@ -24,6 +25,28 @@ h1>span {
     height: 150px;
     margin-bottom: 15px;
     margin-top: 1rem;
+}
+textarea {
+    height: 120px;
+    width: 300px;
+    border: none;
+}
+label {
+    margin: 0;
+    margin-left: 5px;
+}
+input {
+    transform: translateY(-12px);
+}
+input#username {
+    transform: translateX(20px);
+    margin-left: 0;
+    border: none;
+    width: 80%;
+    padding-left: 2rem;
+}
+fieldset {
+    border-bottom: 1px solid lightgrey;
 }
 .image {
     margin-top: 1rem;
